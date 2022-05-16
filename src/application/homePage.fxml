@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HomePageController">
+   <children>
+      <ButtonBar layoutX="128.0" layoutY="77.0" prefHeight="40.0" prefWidth="200.0" />
+      <Button fx:id="newGameButton" layoutX="142.0" layoutY="144.0" mnemonicParsing="false" onAction="#newGame" prefHeight="23.0" prefWidth="116.0" text="New Game" />
+      <Button fx:id="viewStatsButton" layoutX="142.0" layoutY="255.0" mnemonicParsing="false" onAction="#viewStats" prefHeight="23.0" prefWidth="116.0" text="View Statistics" />
+      <Button fx:id="reviewMistakesButton" layoutX="142.0" layoutY="200.0" mnemonicParsing="false" onAction="#reviewMistakes" text="Review Mistakes" />
+      <Button fx:id="clearStatsButton" layoutX="142.0" layoutY="309.0" mnemonicParsing="false" onAction="#clearStats" prefHeight="23.0" prefWidth="116.0" text="Clear Statistics" />
+      <Label layoutX="94.0" layoutY="31.0" text="Spelling Wiz">
+         <font>
+            <Font name="Daniel Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
