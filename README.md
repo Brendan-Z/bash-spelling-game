@@ -1,4 +1,4 @@
-# SOFTENG 206 Assignment 2 - Spelling Wiz
+# Kemu Kupu - Spelling Wiz
 
 Easy steps to run the spelling game: 
 
